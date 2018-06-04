@@ -1,0 +1,50 @@
+{% extends 'base.html' %} {% block body %}
+<div class="bg-home">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="jumbotron jumbotron-fluid white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-2">
+                                <h1 class="display-4 text-center text-white">Where do you want to go?</h1>
+                                <nav>
+                                    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                                        <a class="nav-item nav-link active text-black" id="nav-hotel-tab" data-toggle="tab" href="#nav-hotel" role="tab" aria-controls="nav-hotel"
+                                            aria-selected="true">Hotels</a>
+                                        <a class="nav-item nav-link" id="nav-plane-tab" data-toggle="tab" href="#nav-plane" role="tab" aria-controls="nav-plane"
+                                            aria-selected="true">Planes</a>
+                                        <a class="nav-item nav-link" id="nav-train-tab" data-toggle="tab" href="#nav-train" role="tab" aria-controls="nav-train"
+                                            aria-selected="false">Trains</a>
+                                        <a class="nav-item nav-link" id="nav-automobile-tab" data-toggle="tab" href="#nav-automobile" role="tab" aria-controls="nav-automobile"
+                                            aria-selected="false">Automobiles</a>
+                                        <a class="nav-item nav-link" id="nav-boat-tab" data-toggle="tab" href="#nav-boat" role="tab" aria-controls="nav-boat" aria-selected="false">Boats</a>
+                                    </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab">
+                                        {% include 'form/hotel.html' %}
+                                    </div>
+                                    <div class="tab-pane fade show" id="nav-plane" role="tabpanel" aria-labelledby="nav-plane-tab">
+                                        {% include 'form/flight.html' %}
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-train" role="tabpanel" aria-labelledby="nav-train-tab">
+                                        {% include 'form/train.html' %}
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-automobile" role="tabpanel" aria-labelledby="nav-automobile-tab">
+                                        {% include 'form/automobile.html' %}
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-boat" role="tabpanel" aria-labelledby="nav-boat-tab">
+                                        {% include 'form/boat.html' %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,95 @@
+.top {
+    width: 100%;
+    background-color: #343a40;
+}
+.jumbotron {
+    background-color: #fff;
+}
+
+.bg-sq {
+    background-color: #fff;
+}
+
+.bg-home {
+    background: url('../img/bali.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.bg-hotel {
+    background: url('../img/hotel.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.bg-plane {
+    background: url('../img/plane.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.bg-train {
+    background: url('../img/train.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.bg-automobile {
+    background: url('../img/automobile.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.bg-boat {
+    background: url('../img/boat.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.bg-register {
+    background: url('../img/people.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: #e0e0e0;
+    margin: 0 2px 0 2px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
