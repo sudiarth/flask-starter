@@ -73,6 +73,15 @@
     min-height:550px;
 }
 
+.bg-login {
+    background: url('../img/person.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:550px;
+}
+
 .jumbotron {
     background-color: transparent;
 }
